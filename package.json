@@ -1,0 +1,30 @@
+{
+  "name": "proyecto-divisas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://juan1969gudrul.github.io/proyecto-divisas",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.4.17",
+    "axios": "^1.6.7",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.1.1",
+    "terser": "^5.27.2",
+    "vite": "^5.1.0"
+  }
+}
+
